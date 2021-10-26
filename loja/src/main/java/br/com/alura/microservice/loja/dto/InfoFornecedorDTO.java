@@ -1,7 +1,7 @@
 package br.com.alura.microservice.loja.dto;
 
 public class InfoFornecedorDTO {
-
+	
 	private String endereco;
 
 	public String getEndereco() {
@@ -11,4 +11,7 @@ public class InfoFornecedorDTO {
 	public void setEndereco(String endereco) {
 		this.endereco = endereco;
 	}
+	
+	
+
 }

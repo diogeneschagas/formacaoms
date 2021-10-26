@@ -1,7 +1,7 @@
 package br.com.alura.microservice.loja.dto;
 
 public class ItemDaCompraDTO {
-
+	
 	private long id;
 	
 	private int quantidade;
@@ -23,4 +23,5 @@ public class ItemDaCompraDTO {
 	}
 	
 	
+
 }

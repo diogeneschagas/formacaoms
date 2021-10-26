@@ -18,11 +18,10 @@ public class CompraService {
 	public void realizaCompra(CompraDTO compra) {
 		
 		ResponseEntity<InfoFornecedorDTO> exchange = 
-			client.exchange("http://fornecedor/info/"+compra.getEndereco().getEstado(),
-			HttpMethod.GET, null, InfoFornecedorDTO.class);
+				client.exchange("http://fornecedor/info/"+compra.getEndereco().getEstado(),
+				HttpMethod.GET, null, InfoFornecedorDTO.class);
 		
 		System.out.println(exchange.getBody().getEndereco());
-		
 	}
 
 }

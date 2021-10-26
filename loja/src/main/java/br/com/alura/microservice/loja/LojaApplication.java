@@ -11,7 +11,7 @@ public class LojaApplication {
 	
 	@Bean
 	@LoadBalanced
-	public RestTemplate getRestTemplate() {
+	public RestTemplate geRestTemplate() {
 		return new RestTemplate();
 	}
 
